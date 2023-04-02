@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2959992591501478522, guid: d8d45c53b8835ef42b46240091c771c2, type: 3}
       propertyPath: m_Name
-      value: Upgrade_chain
+      value: Upgrade_chain Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5992963190253985925, guid: d8d45c53b8835ef42b46240091c771c2, type: 3}
       propertyPath: m_Pivot.x
@@ -91,5 +91,13 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0fe047f1c249d65459edb3bb478593c5, type: 3}
+    - target: {fileID: 6432135491684709547, guid: d8d45c53b8835ef42b46240091c771c2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787175169796787133, guid: d8d45c53b8835ef42b46240091c771c2, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8d45c53b8835ef42b46240091c771c2, type: 3}

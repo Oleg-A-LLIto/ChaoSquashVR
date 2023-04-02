@@ -11,11 +11,12 @@ TagManager:
   - Barrier
   - Destructible
   - Bol
+  - HandPlayer
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hand
   - Water
   - UI
   - 
@@ -41,9 +42,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - HandPlayer
+  - Grabbable
+  - Grabbing
   m_SortingLayers:
   - name: Default
     uniqueID: 0

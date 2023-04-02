@@ -16,7 +16,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void Start()
         {
-            mommy = GameObject.FindGameObjectWithTag("GameController");
+            mommy = FindObjectOfType<Initiate_gaem>().gameObject;
             a = GetComponentsInChildren<AudioSource>(false);
             if (dieatspawn)
             {
@@ -29,6 +29,14 @@ namespace Valve.VR.InteractionSystem.Sample
         // Update is called once per frame
         void LateUpdate()
         {
+            if (mommy == null)
+            {
+                mommy = FindObjectOfType<Initiate_gaem>().gameObject;
+                if (mommy == null)
+                {
+                    return;
+                }
+            }
             float chaos = (mommy.GetComponent<ChaosMeter>().initchaos + ((mommy.GetComponent<ChaosMeter>().chaos > 12.5) ? 15 : 0)) % 100;
             if (alive)
             {

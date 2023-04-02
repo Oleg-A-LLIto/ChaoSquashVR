@@ -16,7 +16,7 @@ public class SpawnOnChaos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mommy = GameObject.FindGameObjectWithTag("GameController");
+        mommy = FindObjectOfType<Initiate_gaem>().gameObject;
         if (dieatspawn)
         {
             alive = false;
@@ -30,6 +30,14 @@ public class SpawnOnChaos : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        if(mommy == null)
+        {
+            mommy = GameObject.FindGameObjectWithTag("GameController");
+            if(mommy == null)
+            {
+                return;
+            }
+        }
         float chaos = (mommy.GetComponent<ChaosMeter>().initchaos + ((mommy.GetComponent<ChaosMeter>().chaos > 12.5) ? 15 : 0)) % 100;
         if (alive)
         {

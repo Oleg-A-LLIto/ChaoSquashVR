@@ -9,7 +9,7 @@ public class destructible : MonoBehaviour
 
     void Start()
     {
-        mommy =  GameObject.FindGameObjectWithTag("GameController");
+        mommy = FindObjectOfType<Initiate_gaem>().gameObject;
         GetComponent<AudioSource>().spatialBlend = 1;
         GetComponent<AudioSource>().priority = 255;
     }
@@ -30,7 +30,7 @@ public class destructible : MonoBehaviour
             //Debug.Log("hit by not a ball");
             if (mommy==null)
             {
-                mommy = GameObject.FindGameObjectWithTag("GameController");
+                mommy = FindObjectOfType<Initiate_gaem>().gameObject;
             }
             mommy.GetComponent<ChaosMeter>().chaos += collision.impulse.magnitude * GetComponent<Rigidbody>().mass / 1000000000;
         }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Autohand;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -32,7 +33,8 @@ namespace Valve.VR.InteractionSystem.Sample
                 {
                     float pulse = collision.relativeVelocity.magnitude/20;
                     //Debug.Log("Pulse: " + pulse);
-                    handy.TriggerHapticPulse((ushort)pulse);
+                    
+                    //handy.TriggerHapticPulse((ushort)pulse);
                     GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
                     GetComponent<AudioSource>().volume = pulse;
                     GetComponent<AudioSource>().Play();

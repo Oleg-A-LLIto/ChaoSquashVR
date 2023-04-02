@@ -6,9 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SteamVR/InteractionSystem/Samples/TheGaem.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1fa7b5f53c526c742b4fbfda167fb29b
+  - enabled: 1
+    path: Assets/Scenes/TheGaem.unity
     guid: e3b77830391f10343929883b18f4d5ae
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f9ee4b3b0910b47428b57b913e044fde, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: a4c8252a697920a4f89b8280677a365a, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 9475f77c2cd68c749850b616c52147cc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7784c310c2ddf5e45ac20c3850c0def6, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3f480bd740dbb544bbba6e21cd3ebc46, type: 2}
