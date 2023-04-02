@@ -77,7 +77,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\SteeringWheel.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Grabbable\GrabLock.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\FPSText.cs" />
-    <Compile Include="Assets\Resources\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Movement\InterpolationController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
@@ -100,7 +100,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabPoint.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\SceneLoader.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Movement\AutoHandPlayer.cs" />
-    <Compile Include="Assets\Resources\Scripts\PlateBody.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\PlateBody.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerGravity.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Attributes\AutoToggleHeaderAttribute.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Attributes\AutoLineAttribute.cs" />
@@ -114,7 +114,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\WeaponSlide.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\VehicleController.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets\Resources\Le code\Initiate_gaem.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\Initiate_gaem.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\BoneMapping.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboard.cs" />
@@ -124,7 +124,7 @@
     <Compile Include="Assets\AutoHand\Scripts\Demo\Gadget Demo\MoverLever.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Tools\Sticky.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\InputBridge.cs" />
-    <Compile Include="Assets\Resources\Le code\Chaining_and_comeback.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\Chaining_and_comeback.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ReturnToSnapZone.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\TextFieldInspector.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\SliderTextChanger.cs" />
@@ -146,7 +146,7 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\vibrate_on_impact.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs" />
-    <Compile Include="Assets\Resources\Le code\stoppable.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\stoppable.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\RagdollHelper.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\TMPSizeProtector.cs" />
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRMover.cs" />
@@ -193,7 +193,7 @@
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRHandOffset.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabPointTrigger.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Grabbable\GrabbablePoseAdvanced.cs" />
-    <Compile Include="Assets\Resources\Scripts\ShootBalls.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\ShootBalls.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\MovingPlatform.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BowArm.cs" />
@@ -210,7 +210,7 @@
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRHandControllerLink.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Movement\AutoHandPlayerForceArea.cs" />
     <Compile Include="Assets\Upgrade_system.cs" />
-    <Compile Include="Assets\Resources\Scripts\BreakableChoice.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\BreakableChoice.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\PlayerScaler.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Hand\Hand.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SmoothLocomotion.cs" />
@@ -234,7 +234,7 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Internal\EditorHand.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Gadgets\PhysicsGadgetConfigurableLimitReader.cs" />
-    <Compile Include="Assets\Resources\Scripts\DelayedUnityEvent.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\DelayedUnityEvent.cs" />
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRHandPlayerControllerLink.cs" />
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRAutoHandAxisFingerBender.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
@@ -246,17 +246,17 @@
     <Compile Include="Assets\AutoHand\Scripts\Grabbable\DistanceGrabbable.cs" />
     <Compile Include="Assets\SpawnOnChaos.cs" />
     <Compile Include="Assets\DestroyedByChaos.cs" />
-    <Compile Include="Assets\Resources\Le code\MeshDestroy.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\MeshDestroy.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Tools\PhysicsFollower.cs" />
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRControllerEvent.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandCollision.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Movement\InterpolatedTransformUpdater.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Tools\Stickable.cs" />
-    <Compile Include="Assets\Resources\Le code\bad_throw.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\bad_throw.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Gadgets\PhysicsGadgetLever.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Attributes\AutoSmallHeaderAttribute.cs" />
-    <Compile Include="Assets\Resources\Le code\Impact_sound.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\Impact_sound.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionFade.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableBezierLine.cs" />
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRHandPointGrabLink.cs" />
@@ -271,7 +271,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Components\CollisionSound.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\BoxingGlove.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\XRTrackedPoseDriver.cs" />
-    <Compile Include="Assets\Resources\Le code\ChaosMeter.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\ChaosMeter.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Internal\HandPoseData.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\GrabberArea.cs" />
@@ -297,7 +297,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerJoint.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Movement\PlayerPlatform.cs" />
-    <Compile Include="Assets\Resources\Le code\destructible.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\destructible.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\LeverTextChanger.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Grabbable\PlacePoint.cs" />
@@ -313,13 +313,13 @@
     <Compile Include="Assets\AutoHand\Scripts\Hand\HandProjector.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\AutoPoser.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Tools\HandCanvasPointer.cs" />
-    <Compile Include="Assets\Resources\Le code\IgnoreBarriers.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\IgnoreBarriers.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Grabbable\GrabbableChild.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SavePoseBinding.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleHelper.cs" />
-    <Compile Include="Assets\Resources\Scripts\ParticleSpeed.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\ParticleSpeed.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\AmmoDispenser.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlight.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\DamageCollider.cs" />
@@ -364,7 +364,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportDestination.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\ExplosionSource.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableRingHelper.cs" />
-    <Compile Include="Assets\Resources\Le code\spawn_balls.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\spawn_balls.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Gadgets\PhysicsGadgetButton.cs" />
     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRHeadTracking.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\Projectile.cs" />
@@ -374,7 +374,7 @@
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoser.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\DemoFlyingToggle.cs" />
     <Compile Include="Assets\BNG Framework\Animation\HandPoseDefinitions.cs" />
-    <Compile Include="Assets\Resources\Scripts\Fading.cs" />
+    <Compile Include="Assets\ChaoSquashStuff\Scripts\Fading.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\AutoHand\Scripts\Templates\HandEventDebugger.cs" />
@@ -415,7 +415,7 @@
     <None Include="Assets\BNG Framework\Sounds\license.txt" />
     <None Include="Assets\BNG Framework\Integrations\SteamVR\Readme.txt" />
     <None Include="Assets\Simple Toon\Shaders\STDefault.shader" />
-    <None Include="Assets\Resources\Music\License.txt" />
+    <None Include="Assets\ChaoSquashStuff\Music\License.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets\BNG Framework\Materials\MobileColorShader.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Procedural Ring.shader" />
