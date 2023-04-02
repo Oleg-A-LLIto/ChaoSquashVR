@@ -202,7 +202,6 @@ GameObject:
   - component: {fileID: 1232826881883335765}
   - component: {fileID: 4955768219491985775}
   - component: {fileID: 1811772878131311968}
-  - component: {fileID: 2982073079760998904}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -286,67 +285,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.59240615, z: 0.9999999}
   m_Center: {x: 0, y: -0.19575603, z: -0.060383167}
---- !u!114 &2982073079760998904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3288972090999483438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822bc9090447b9c40833509c4a32e597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ignoreMe: 0
-  body: {fileID: 0}
-  hightlightMaterial: {fileID: 0}
-  isGrabbable: 1
-  CopySettings: {fileID: 0}
-  grabType: 0
-  handType: 0
-  singleHandOnly: 0
-  allowHeldSwapping: 1
-  instantGrab: 0
-  useGentleGrab: 0
-  maintainGrabOffset: 0
-  ignoreWeight: 0
-  parentOnGrab: 1
-  throwPower: 1
-  jointBreakForce: 3500
-  showAdvancedSettings: 1
-  makeChildrenGrabbable: 1
-  grabPriorityWeight: 1
-  ignoreReleaseTime: 0.5
-  heldPositionOffset: {x: 0, y: 0, z: 0}
-  heldRotationOffset: {x: 0, y: 0, z: 0}
-  customGrabJoint: {fileID: 0}
-  jointedBodies: []
-  heldIgnoreColliders: []
-  pullApartBreakOnly: 1
-  showEvents: 1
-  onGrab:
-    m_PersistentCalls:
-      m_Calls: []
-  onRelease:
-    m_PersistentCalls:
-      m_Calls: []
-  onSqueeze:
-    m_PersistentCalls:
-      m_Calls: []
-  onUnsqueeze:
-    m_PersistentCalls:
-      m_Calls: []
-  onHighlight:
-    m_PersistentCalls:
-      m_Calls: []
-  onUnhighlight:
-    m_PersistentCalls:
-      m_Calls: []
-  OnJointBreak:
-    m_PersistentCalls:
-      m_Calls: []
-  lockHandOnGrab: 0
 --- !u!1 &3680675009658800618
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3680675009658800618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0268, z: 0.202}
+  m_LocalPosition: {x: 0, y: 0.0268, z: 0.233}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5550104186981892975}
@@ -1154,11 +1092,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812f2f548bd6fc44abcb949f0d44b98c, type: 3}
---- !u!4 &2405313026279736749 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7226888052703040406, guid: 812f2f548bd6fc44abcb949f0d44b98c, type: 3}
-  m_PrefabInstance: {fileID: 4983922454321108539}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2405313026279736738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7226888052703040409, guid: 812f2f548bd6fc44abcb949f0d44b98c, type: 3}
@@ -1167,6 +1100,11 @@ GameObject:
 --- !u!198 &2405313026279736748 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 7226888052703040407, guid: 812f2f548bd6fc44abcb949f0d44b98c, type: 3}
+  m_PrefabInstance: {fileID: 4983922454321108539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2405313026279736749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7226888052703040406, guid: 812f2f548bd6fc44abcb949f0d44b98c, type: 3}
   m_PrefabInstance: {fileID: 4983922454321108539}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1456205012996946776
