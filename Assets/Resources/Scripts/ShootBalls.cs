@@ -8,6 +8,7 @@ public class ShootBalls : MonoBehaviour
     [SerializeField] Transform GunOrigin;
     [SerializeField] Transform ShootingPoint;
     [SerializeField] float maxPower;
+    [SerializeField] float minPower;
     [SerializeField] float maxPowerTime;
     bool charging = false;
     float currentCharge = 0.0f;
@@ -28,7 +29,9 @@ public class ShootBalls : MonoBehaviour
         float _finalCharge = Mathf.Min(maxPowerTime, currentCharge) / maxPowerTime;
         GameObject _projectile = Object.Instantiate(ProjectilePrefab);
         _projectile.transform.position = ShootingPoint.position;
-        _projectile.GetComponent<Rigidbody>().AddExplosionForce(maxPower * _finalCharge, GunOrigin.position, 2);
+        _projectile.GetComponent<Rigidbody>().AddForce((minPower + maxPower * _finalCharge) * (ShootingPoint.position - GunOrigin.position).normalized, ForceMode.Impulse);
+        _projectile.transform.rotation = Random.rotation;
+        currentCharge = 0;
     }
 
     // Update is called once per frame
