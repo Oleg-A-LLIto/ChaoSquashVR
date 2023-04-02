@@ -23,6 +23,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 932210673370980419, guid: e1013e621cd52c14195d9dd5e4d2d7d4, type: 3}
+      propertyPath: counting
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 932210673370980419, guid: e1013e621cd52c14195d9dd5e4d2d7d4, type: 3}
+      propertyPath: Disposable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 932210673370980419, guid: e1013e621cd52c14195d9dd5e4d2d7d4, type: 3}
+      propertyPath: chain_length
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8849531126714708298, guid: e1013e621cd52c14195d9dd5e4d2d7d4, type: 3}
       propertyPath: m_Radius
       value: 0.03

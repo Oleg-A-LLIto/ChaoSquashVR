@@ -8,14 +8,22 @@ public class SceneChanger : MonoBehaviour
 {
     [SerializeField] Slider LoadingSlider;
     [SerializeField] Fading fadingAnimator;
+    int id;
 
     public void ChangeScene(int _id)
     {
-        AsyncOperation _loading = SceneManager.LoadSceneAsync(_id);
+        id = _id;
+        StartCoroutine(LoadTheSceneAsync());
+    }
+
+    IEnumerator LoadTheSceneAsync()
+    {
+        AsyncOperation _loading = SceneManager.LoadSceneAsync(id);
         fadingAnimator.Fade(true);
         while (!_loading.isDone)
         {
             LoadingSlider.value = _loading.progress;
+            yield return 0;
         }
     }
 

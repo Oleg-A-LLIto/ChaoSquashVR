@@ -15,6 +15,8 @@ public class Chaining_and_comeback : MonoBehaviour
     float wait = 0.5f;
     bool hit_home = false;
     public GameObject player;
+    public bool UsesRacket;
+    public bool Disposable;
     // Start is called before the first frame update
     void Start()
     {
@@ -86,8 +88,10 @@ public class Chaining_and_comeback : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("Collision happened");
         if ((wait < 0.5f) || (hitMutex))
         {
+            Debug.Log("Ignored because the last collision was just before this one");
             return;
         }
         //Debug.Log("bonk");
@@ -96,6 +100,7 @@ public class Chaining_and_comeback : MonoBehaviour
             if (!collision.collider.gameObject.CompareTag("Racket"))
             {
                 //Debug.Log("Just hit the wall or a thing");
+                Debug.Log("We're in");
                 if (collision.collider.gameObject.CompareTag("Destructible"))
                 {
                     if (!exploded)
@@ -145,9 +150,11 @@ public class Chaining_and_comeback : MonoBehaviour
                 }
                 else
                 {
-                    if(player == null)
+                    if(Disposable)
                     {
+                        Debug.Log("that was my last hit dude");
                         DeathBehaviour();
+                        
                         return;
                     }
                     float angle = Vector2.Angle(new Vector2(player.transform.position.x, player.transform.position.z), new Vector2(1, 0)) + Random.Range(-15, 15);
@@ -196,7 +203,7 @@ public class Chaining_and_comeback : MonoBehaviour
 
     private void DeathBehaviour()
     {
-        GameObject.Destroy(gameObject);
+        Destroy(gameObject);
     }
 
     void explode()
