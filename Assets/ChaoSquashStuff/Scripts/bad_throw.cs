@@ -17,7 +17,7 @@ public class bad_throw : MonoBehaviour
     {
         bars = GameObject.FindGameObjectsWithTag("Barrier");
     }
-    protected virtual void OnDetachedFromHand(Hand hand)
+    public void OnDetachedFromHand()
     {
         defused = false;
         GetComponent<Chaining_and_comeback>().counting = false;

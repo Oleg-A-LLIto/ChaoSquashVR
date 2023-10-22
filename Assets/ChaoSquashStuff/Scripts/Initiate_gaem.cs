@@ -41,7 +41,7 @@ public class Initiate_gaem : MonoBehaviour
     void Start()
     {
         chaosmeter = GetComponent<ChaosMeter>();
-        spawn_ball();
+        //spawn_ball();
         pause();
     }
 

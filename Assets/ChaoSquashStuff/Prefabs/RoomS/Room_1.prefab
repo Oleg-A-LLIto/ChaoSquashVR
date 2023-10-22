@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4311605726485979460}
   - {fileID: 2482553828926221944}
@@ -69,6 +70,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7628292080146610752}
   m_RootOrder: 8
@@ -92,6 +94,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -689,10 +692,6 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.0175
       objectReference: {fileID: 0}
-    - target: {fileID: 7687140054346973069, guid: d9ebd33de95b351449cf88e7dfb6c051, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 767aca3cbaec80442ac2113341a904d5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9ebd33de95b351449cf88e7dfb6c051, type: 3}
 --- !u!4 &4311605726485979460 stripped

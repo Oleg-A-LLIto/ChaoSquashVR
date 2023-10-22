@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1e8b9055f250411418cb1a2e6d834120
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mastodon
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b9c4c19ee8bf6d5409d011b02b357f6a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

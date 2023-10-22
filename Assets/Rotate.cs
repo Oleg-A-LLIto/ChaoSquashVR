@@ -15,6 +15,6 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + speed * Time.deltaTime);
+        transform.localRotation = Quaternion.Euler(transform.localRotation.eulerAngles + speed * Time.deltaTime);
     }
 }
